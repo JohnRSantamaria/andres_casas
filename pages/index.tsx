@@ -9,9 +9,9 @@ export default function Home() {
 		>
 			<Lottie
 				animationData={animationData}
-				className='h-1/2 w-[calc(100vw-10%)] lg:w-1/2 md:hero_screen_size order-2 lg:order-1'
+				className='h-1/2 w-[calc(100vw-10%)] lg:w-1/2 md:h-1/2 order-2 lg:order-1  lg:h-full  '
 			/>
-			<div className='h-1/2 w-full flex flex-col items-center justify-center gap-8 md:hero_screen_size order-1 lg:order-2 '>
+			<div className='h-1/2 w-full lg:w-1/2 md:h-1/2 flex flex-col items-center justify-center gap-8 md:hero_screen_size order-1 lg:order-2 '>
 				<h1 className='text-3xl font-semibold lg:text-4xl xl:text-6xl '>
 					Inversiones y Finanzas AC
 				</h1>
