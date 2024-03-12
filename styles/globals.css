@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	@apply bg-[#f5f5f5];
+}
+
 .hero_screen_size {
 	@apply h-[calc(100vh-4.1rem)];
+}
+
+.button_class {
+	@apply border w-72 h-12 rounded-lg bg-primary text-light text-lg font-semibold active:scale-95 transition-all duration-300 ease-in-out hover:opacity-80;
 }

@@ -4,10 +4,10 @@ import DropDown from '../dropdown';
 
 export default function NavBar() {
 	return (
-		<header className='sticky top-0 bg-white  h-16 flex gap-4 items-center justify-between px-2'>
+		<header className='sticky top-0 bg-light  h-16 flex gap-4 items-center justify-between px-2'>
 			<section className='flex gap-2 items-center justify-center'>
 				<Logo />
-				<h1 className='font-semibold text-lg hidden sm:block'>Inversiones y Finanzas AC</h1>
+				<p className='font-semibold text-lg hidden sm:block'>Inversiones y Finanzas AC</p>
 			</section>
 			<nav>
 				<ul className='flex gap-4'>
