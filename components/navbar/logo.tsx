@@ -6,7 +6,7 @@ export default function Logo() {
 		<Image
 			src={Logo_imag}
 			alt='Inversiones y Finanzas AC - Especialistas en Créditos y Financiación en Colombia'
-			className='w-auto h-16'
+			className='w-auto h-16 '
 		/>
 	);
 }

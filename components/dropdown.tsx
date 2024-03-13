@@ -1,6 +1,7 @@
 import {Fragment} from 'react';
 import {Menu, Transition} from '@headlessui/react';
 import {ChevronDownIcon} from '@heroicons/react/20/solid';
+import {CustomLink} from './CustomLink';
 
 function MenuItem({children, href}: {children: React.ReactNode; href: string}) {
 	return (
@@ -51,11 +52,11 @@ export default function DropDown() {
 			>
 				<Menu.Items className='absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
 					<div className='py-1'>
-						<MenuItem href='#'>Compra de cartera</MenuItem>
-						<MenuItem href='#'>Créditos</MenuItem>
-						<MenuItem href='#'>Asesoría inmobiliaria</MenuItem>
-						<MenuItem href='#'>Seguros</MenuItem>
-						<MenuItem href='#'>Inversiones</MenuItem>
+						<MenuItem href='#portfolio_purchase'>Compra de cartera</MenuItem>
+						<MenuItem href='#loans'>Créditos</MenuItem>
+						<MenuItem href='#real_estate_consultancy'>Asesoría inmobiliaria</MenuItem>
+						<MenuItem href='#insurances'>Seguros</MenuItem>
+						<MenuItem href='#investments'>Inversiones</MenuItem>
 					</div>
 				</Menu.Items>
 			</Transition>
