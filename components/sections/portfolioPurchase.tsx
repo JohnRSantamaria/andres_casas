@@ -17,9 +17,9 @@ export default function PortfolioPurchase() {
 						src={portfolioPurchaseImg}
 						alt='dibujo de un hombre que compra de cartera'
 					/>
-					<div className='flex flex-col items-center justify-center gap-8 px-8'>
+					<div className='flex flex-col items-center justify-center gap-4 px-8'>
 						<h3 className='capitalize subtitle'>Beneficios</h3>
-						<ul className='list-disc'>
+						<ul className='flex flex-col gap-2 list-disc lg:text-lg'>
 							<li> Unificas tus deudas en una sola y a una mejor tasa.</li>
 							<li>
 								Mejoras tu flujo de dinero mes a mes, ya que pagas mucho menos por las mismas deudas
@@ -36,8 +36,8 @@ export default function PortfolioPurchase() {
 						</ul>
 					</div>
 				</div>
-				<div className='h-40 flex items-center justify-center'>
-					<p className='text-lg text-center'>
+				<div className='min-h-40 p-2 flex items-center justify-center  text-[#e4efff] border bg-gradient-to-r from-[#3e61ff]  to-[#1328ff] border-[#0010ff] shadow-lg rounded'>
+					<p className='md:text-3xl text-lg text-center'>
 						Unifica tus deudas y paga una sola cuota, con una tasa más baja para que tu dinero rinda
 						más.
 					</p>

@@ -15,7 +15,7 @@ export default function Hero() {
 			/>
 			<div className='h-1/2 w-full lg:w-1/2 md:h-1/2 flex flex-col items-center justify-center gap-8 md:hero_screen_size order-1 lg:order-2 '>
 				<h1 className='title font-semibold lg:text-4xl xl:text-6xl'>Inversiones y Finanzas AC</h1>
-				<h2 className='text-lg text-wrap   '>
+				<h2 className='text-lg text-wrap lg:text-2xl  '>
 					Especialistas en Créditos y Financiación en Colombia
 				</h2>
 				<Buttton>Agenda tu asesoría</Buttton>
