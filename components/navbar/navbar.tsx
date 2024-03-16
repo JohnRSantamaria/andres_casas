@@ -5,7 +5,7 @@ import {CustomLink} from '../CustomLink';
 
 export default function NavBar() {
 	return (
-		<header className='sticky top-0 bg-light h-16 flex px-1 items-center justify-between z-30 '>
+		<header className='sticky top-0 bg-light h-16 flex px-1 items-center justify-between z-30  '>
 			<section className='flex gap-2 items-center justify-center '>
 				<Logo />
 				<p className='font-semibold text-lg hidden sm:block'>Inversiones y Finanzas AC</p>
@@ -17,7 +17,7 @@ export default function NavBar() {
 						title='Inicio'
 					/>
 					<CustomLink
-						href=''
+						href='https://wa.me/573132495697'
 						title='contacto'
 					/>
 

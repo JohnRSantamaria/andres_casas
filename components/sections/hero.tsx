@@ -2,8 +2,11 @@ import Lottie from 'lottie-react';
 import React from 'react';
 import animationData from '@/public/images/lottie/hero_animation.json';
 import Buttton from '../common/Buttton';
+import {useRouter} from 'next/navigation';
 
 export default function Hero() {
+	const router = useRouter();
+
 	return (
 		<div
 			id='home'
@@ -18,7 +21,7 @@ export default function Hero() {
 				<h2 className='text-lg text-wrap lg:text-2xl  '>
 					Especialistas en Créditos y Financiación en Colombia
 				</h2>
-				<Buttton>Agenda tu asesoría</Buttton>
+				<Buttton href='https://calendly.com/inversionesyfinanzasac'>Agenda tu asesoría</Buttton>
 			</div>
 		</div>
 	);

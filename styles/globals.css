@@ -15,7 +15,7 @@ body {
 }
 
 .button_class {
-	@apply border w-72 h-12 rounded-lg bg-primary text-light text-lg font-semibold active:scale-95 transition-all duration-300 ease-in-out hover:opacity-80;
+	@apply border w-72 h-12 rounded-lg bg-primary text-light text-lg font-semibold active:scale-95 transition-all duration-300 ease-in-out hover:opacity-80  flex items-center justify-center;
 }
 
 .title {
